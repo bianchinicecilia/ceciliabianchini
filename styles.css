@@ -915,7 +915,7 @@ body {
     overflow: scroll;
     height: auto;
     position: relative;
-    margin: 0;
+    margin: 1.5em 0 0 0;
   }
 }
 
@@ -966,7 +966,25 @@ body {
   margin-bottom: 2.7em;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
+  .leftContainer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .leftContent {
+    max-width: 100%;
+    height: auto;
+    margin: 0em 0em 5em 0em;
+  }
+
+  .imgsLeftContent {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (min-width: 1024px) {
   .leftContainer {
     width: 90%;
     height: auto;
