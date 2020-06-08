@@ -426,15 +426,13 @@
             <div class="footerItem" id="vimeo"><a href="#contact"><a href="https://vimeo.com/user23761233" target="_blank">vimeo</a></a></div>
         </div>
         <div class="worldometer">
-          <div class="redContent">
-            <div class="body-content__rollig-text rolling-text" data-reveal>
-              <div class="rolling-text__text">
-                Mother Earth's Plantasia by Mort Garson
-                <audio controls id="player">
-                  <source src="assets/Mort Garson-Plantasia.mp3" type="audio/mpeg">
-                  Your browser does not support HTML5 audio.
+          <div class="body-content__rollig-text rolling-text" data-reveal>
+            <div class="rolling-text__text">
+              Mother Earth's Plantasia by Mort Garson
+                <audio id="yourAudio" preload='none'>
+                    <source src='assets/Mort Garson-Plantasia.mp3' type='audio/wav' />
                 </audio>
-              </div>
+              <a href="#" id="audioControl">PLAY</a>
             </div>
           </div>
         </div>
@@ -464,6 +462,24 @@
       ease: Linear.easeNone,
       repeat: -1
     });
+
+    /* PLAYER */
+    var yourAudio = document.getElementById('yourAudio'),
+    ctrl = document.getElementById('audioControl');
+
+    ctrl.onclick = function () {
+
+        // Update the Button
+        var pause = ctrl.innerHTML === 'PAUSE';
+        ctrl.innerHTML = pause ? 'PLAY' : 'PAUSE';
+
+        // Update the Audio
+        var method = pause ? 'pause' : 'play';
+        yourAudio[method]();
+
+        // Prevent Default Action
+        return false;
+    };
     </script>
 
   </body>
