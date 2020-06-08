@@ -312,19 +312,6 @@ body {
   }
 }
 
-.worldometer {
-  overflow: hidden;
-  background-color: #FF0000;
-  min-width: 32%;
-  justify-content: flex-end;
-}
-
-@media (max-width: 1024px) {
-  .worldometer {
-    min-width: 100%;
-  }
-}
-
 /* HOMEPAGE*/
 
 .homepage {
@@ -611,6 +598,42 @@ body {
 
 .show {
    display: block!important;
+}
+
+
+/* PLAYER */
+
+.worldometer {
+  overflow: hidden;
+  background-color: #FF0000;
+  min-width: 32%;
+  justify-content: flex-end;
+}
+
+#player {
+  background-color: none;
+}
+
+@media (max-width: 1024px) {
+  .worldometer {
+    min-width: 100%;
+  }
+}
+
+.redContent {
+  max-width: 85%;
+}
+
+/* TEXT LOOPING */
+.body-content__rollig-text {
+  white-space: nowrap;
+  font-family: SpaceGrotesk-Regular;
+  margin-top: 1em;
+}
+.body-content__rollig-text .rolling-text__text {
+  font-size: 1em;
+  color: white;
+  display: inline-block;
 }
 
 /* PROJECT PAGE */
