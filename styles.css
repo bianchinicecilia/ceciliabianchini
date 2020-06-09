@@ -977,13 +977,15 @@ body {
     height: auto;
     margin: 2.5em auto 6em auto;
   }
+}
 
 @media (min-width: 1024px) {
   .leftContent {
     max-width: 80%;
     height: auto;
-    margin: 2.5em auto 7em auto;
+    margin: 2.5em auto 9em auto;
   }
+}
 
 .imgsLeftContent {
   width: 100%;
@@ -994,6 +996,18 @@ body {
     width: 100%;
     margin-bottom: 0.5em;
   }
+}
+
+@media (min-width: 600px) {
+  .leftContent {
+    max-width: 100%;
+    height: auto;
+    margin: 2.5em auto 6em auto;
+  }
+}
+
+.videoMobile {
+  max-width: 100%;
 }
 
 .videoPage {
@@ -1289,7 +1303,7 @@ body {
 @media (min-width: 600px) {
   .navItem {
     margin: 0 1em;
-    font-size: 3em;
+    font-size: 2.5em;
     max-height: 2em;
   }
 }
@@ -1587,18 +1601,18 @@ img {
 }
 .carousel-control {
   position: absolute;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-family: SpaceGrotesk-Regular;
 }
 .carousel-control.left {
-  left: 5em;
+  left: 7em;
   right: auto;
-  bottom: 2.5em;
+  bottom: 1.2em;
 }
 .carousel-control.right {
-  right: 5em;
+  right: 7em;
   left: auto;
-  bottom: 2.5em;
+  bottom: 1.2em;
 }
 .carousel-control:hover,
 .carousel-control:focus,
