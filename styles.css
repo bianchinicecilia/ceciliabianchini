@@ -135,9 +135,15 @@ body {
   color: white;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 600px) {
   .cb {
-    font-size: 1.5em;
+    font-size: 3.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cb {
+    font-size: 1.2em;
   }
 }
 
@@ -433,9 +439,17 @@ body {
   margin: 2% auto 1.5% auto;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
   .field {
-    margin: 1em 0 0 0;
+    font-size: 6.5em;
+    margin: 1em 0 0.3em 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .field {
+    font-size: 2.3em;
+    margin: 2% 0 1.5% 0;
   }
 }
 
@@ -470,14 +484,21 @@ body {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
   .categoryMob {
     display: block;
     color: white;
+    font-size: 2em;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+  .categoryMob {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
   .categoryMob-project {
     margin-top: 1em;
   }
@@ -502,6 +523,18 @@ body {
   align-self: start;
   height: auto;
   color: white;
+}
+
+@media (min-width: 600px) {
+  .project {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project {
+    font-size: 0.9em;
+  }
 }
 
 @media (min-width: 1920px) {
