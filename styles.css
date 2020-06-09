@@ -700,6 +700,21 @@ body {
   margin-bottom: 1.2em;
 }
 
+@media (min-width: 600px) {
+  .didaWall {
+    font-size: 2em;
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .didaWall {
+    font-size: 0.7em;
+    margin-bottom: 1.2em;
+  }
+}
+
 .didaWallLast {
   font-size: 0.7em;
   font-family: SpaceGrotesk-Regular;
@@ -714,6 +729,19 @@ body {
   margin: 1.8em 0;
 }
 
+@media (min-width: 600px) {
+  .copyBootstrap {
+    font-size: 2em;
+    margin: 1.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .copyBootstrap {
+    font-size: 0.9em;
+  }
+}
+
 
 /* X Close Button */
 .close {
@@ -723,7 +751,25 @@ body {
   font-weight: bold;
   margin-top: -1.45em;
   margin-right: -0.66em;
+}
 
+@media (min-width: 600px) {
+  .close {
+    font-size: 4.5em;
+    margin-right: 0.08em;
+    margin-bottom: 0.7em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .close {
+    color: #FF0000;
+    float: right;
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-top: -1.45em;
+    margin-right: -0.66em;
+  }
 }
 
 .close:hover,
@@ -778,6 +824,13 @@ body {
 
 /* PLAYER */
 
+.worldometerHP {
+  overflow: hidden;
+  background-color: #FF0000;
+  min-width: 32%;
+  justify-content: flex-end;
+}
+
 .worldometer {
   overflow: hidden;
   background-color: #FF0000;
@@ -790,13 +843,23 @@ body {
 }
 
 @media (min-width: 600px) {
-  .worldometer {
+  .worldometerHP {
     padding: 3em 0 3em 0;
     max-width: 100%;
+  }
+
+  .worldometer {
+    padding: 3em 0 3em 0;
+    min-width: 100%;
   }
 }
 
 @media (min-width: 1024px) {
+  .worldometerHP {
+    padding: 0;
+    min-width: 32%;
+  }
+
   .worldometer {
     padding: 0;
     min-width: 32%;
@@ -1514,7 +1577,6 @@ body {
 }
 
 .tab-content {
-  max-width: 100%;
   height: 100vh;
   background-color: #F7F7FF;
   position: absolute;
@@ -1538,6 +1600,18 @@ body {
 
 .inContent {
   margin: 2em 3em;
+}
+
+@media (min-width: 600px) {
+  .inContent {
+    margin: 5em 3em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inContent {
+    margin: 2em 3em;
+  }
 }
 
 .innerContainer {
