@@ -214,7 +214,7 @@ body {
 
 @media (min-width: 600px) {
   .footer {
-    margin: 3em 0 0 0;
+    margin: 9em 0 0 0;
   }
 }
 
@@ -963,15 +963,11 @@ body {
   margin: 2.5em auto 7em auto;
 }
 
-.imgsLeftContent {
-  width: 100%;
-  margin-bottom: 2.7em;
-}
-
 @media (min-width: 600px) {
   .leftContent {
     max-width: 100%;
     height: auto;
+    margin: 2.5em auto 6em auto;
   }
 
 @media (min-width: 1024px) {
@@ -980,6 +976,11 @@ body {
     height: auto;
     margin: 2.5em auto 7em auto;
   }
+
+.imgsLeftContent {
+  width: 100%;
+  margin-bottom: 2.7em;
+}
 
   .imgsLeftContent {
     width: 100%;
@@ -1583,12 +1584,12 @@ img {
 .carousel-control.left {
   left: 5em;
   right: auto;
-  bottom: -1.5em;
+  bottom: 2.5em;
 }
 .carousel-control.right {
   right: 5em;
   left: auto;
-  bottom: -1.5em;
+  bottom: 2.5em;
 }
 .carousel-control:hover,
 .carousel-control:focus,
