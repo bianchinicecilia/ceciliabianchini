@@ -5,6 +5,7 @@
     <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src=”../assets/jquery.mobile.custom.min.js”></script>
   </head>
 
   <body>
@@ -190,7 +191,7 @@
                 - crudle of Tuscan gastronomy and wine tourism.
                 I worked on the festival Identity and website for Era Studio Berlin.
                 We decided for the key visual, to play with videos of lactobacillus:
-                a type of bacteria that transforms Must into wine.
+                a type of bacteria that transforms Must into wine.<br><br>
                 Experimentation in music is like wine fermentation: it happens in an organic
                 way. This is alive, dynamic and constantly unpredictable. Music is natural,
                 it springs from what the artists perceive, what they feel, and what they’re
@@ -222,7 +223,7 @@
     </div>
 
     <script>
-    <!-- bootstrap -->
+    /* BOOTSTRAP */
       $(document).ready(function(){
         $(".btn-success").click(function(){
           $(".collapse").collapse('show');
@@ -232,6 +233,17 @@
           $(".collapse").collapse('hide');
             $(this).tab('hide');
         });
+      });
+
+      /* SWIPE LEFT */
+
+      $(document).ready(function() {
+         $("#myCarousel").swiperight(function() {
+            $("#myCarousel").carousel('prev');
+          });
+         $("#myCarousel").swipeleft(function() {
+            $("#myCarousel").carousel('next');
+         });
       });
 
     </script>
