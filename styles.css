@@ -254,11 +254,23 @@ body {
 
 @media (min-width: 600px) {
   .footerHP {
-    margin: 0em 0 0 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     height: auto;
     position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerHP {
+    display: flex;
+    flex-direction: row;
+    height: 2.875em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
   }
 }
 
@@ -468,7 +480,7 @@ body {
   .HpContent {
     max-width: 100%;
     height: auto;
-    margin: 2em 2em 2.5em 2em;
+    margin: 7% 3% 0 3%;
   }
 }
 
@@ -525,7 +537,7 @@ body {
 @media (min-width: 600px) {
   .field {
     font-size: 6.5em;
-    margin: 1em 0 0.3em 0;
+    margin: 0.8em 0 0.2em 0;
   }
 }
 
@@ -584,7 +596,7 @@ body {
 
 @media (min-width: 600px) {
   .categoryMob-project {
-    margin-top: 1em;
+    margin-top: 1.2em;
   }
 }
 
@@ -597,6 +609,22 @@ body {
     display: block;
     max-width: 100%;
     margin-top: 1.5em;
+  }
+}
+
+.palette {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .palette {
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .palette {
+    margin-bottom: 0;
   }
 }
 
@@ -619,6 +647,7 @@ body {
 @media (min-width: 1024px) {
   .project {
     font-size: 0.9em;
+    margin-top: 0;
   }
 }
 
