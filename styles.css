@@ -642,9 +642,17 @@ body {
   background-color: none;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
   .worldometer {
+    padding: 3em 0 3em 0;
     min-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .worldometer {
+    padding: 0;
+    min-width: 32%;
   }
 }
 
@@ -1280,8 +1288,8 @@ body {
 
 @media (min-width: 600px) {
   .navItem {
-    margin: 0.925em 1em;
-    font-size: 2.5em;
+    margin: 0 1em;
+    font-size: 3em;
     max-height: 2em;
   }
 }
@@ -1601,7 +1609,7 @@ img {
 
 .carousel-control:active,
 .carousel-control:visited {
-  color: black;
+  color: #FF0000;
   text-decoration: none;
 }
 
