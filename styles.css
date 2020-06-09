@@ -1281,7 +1281,8 @@ body {
 @media (min-width: 600px) {
   .navItem {
     margin: 0.925em 1em;
-    font-size: 2em;
+    font-size: 2.5em;
+    max-height: 2em;
   }
 }
 
