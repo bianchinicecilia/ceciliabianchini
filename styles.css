@@ -861,7 +861,7 @@ body {
   .homeButton {
     text-align: center;
     padding: 1em;
-    font-size: 3em;
+    font-size: 3.2em;
   }
 }
 
@@ -1034,7 +1034,7 @@ body {
 
 @media (min-width: 600px) {
   .projectContainer {
-    padding: 6.5em;
+    padding: 6.5em 6em;
   }
 }
 
@@ -1281,7 +1281,7 @@ body {
 @media (min-width: 600px) {
   .navItem {
     margin: 0.925em 1em;
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
