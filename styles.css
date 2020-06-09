@@ -75,6 +75,24 @@ body {
   color: black;
 }
 
+.footerHP a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.footerHP a:visited {
+  color: black;
+}
+
+.footerHP a:hover {
+  color: black;
+  text-decoration: line-through;
+}
+
+.footerHP a:active {
+  color: black;
+}
+
 .project a:link {
   color: white;
   text-decoration: none;
@@ -218,9 +236,29 @@ body {
   z-index: 100;
 }
 
+.footerHP {
+  display: flex;
+  flex-direction: row;
+  height: 2.875em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+
 @media (min-width: 600px) {
   .footer {
     margin: 9em 0 0 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .footerHP {
+    margin: 0em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
   }
 }
 
@@ -328,6 +366,43 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .footerHP {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .footerHP .footerMenu {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .footerHP .worldometer {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
+
 #arena {
   text-align: center;
 }
@@ -381,7 +456,15 @@ body {
   margin: 7% 3% 0 3%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
+  .HpContent {
+    max-width: 100%;
+    height: auto;
+    margin: 2em 2em 8em 2em;
+  }
+}
+
+@media (min-width: 1024px) {
   .HpContent {
     max-width: 100%;
     height: auto;
@@ -680,7 +763,7 @@ body {
 @media (min-width: 600px) {
   .worldometer {
     padding: 3em 0 3em 0;
-    min-width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -888,6 +971,18 @@ body {
   font-size: 1em;
   color: white;
   display: inline-block;
+}
+
+@media (min-width: 600px) {
+  .body-content__rollig-text .rolling-text__text {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .body-content__rollig-text .rolling-text__text {
+    font-size: 1em;
+  }
 }
 
 /* PROJECT PAGE */
