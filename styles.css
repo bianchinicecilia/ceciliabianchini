@@ -542,6 +542,7 @@ body {
   .field {
     font-size: 6.5em;
     margin: 0.8em 0 0.2em 0;
+    line-height: 1.08;
   }
 }
 
@@ -706,7 +707,7 @@ body {
 
 @media (min-width: 600px) {
   .didaWall {
-    font-size: 2em;
+    font-size: 1.15em;
     margin-top: 0.8em;
     margin-bottom: 1.2em;
   }
@@ -1906,4 +1907,84 @@ img {
 }
 .carousel-control .icon-next:before {
   content: "\203a";
+}
+
+/* SLIDER 2
+
+.carousel {
+    margin-top: 20px;
+}
+.carousel-control {
+    top: 50%;*/
+
+    /* border 3px, size 40px
+    border: 3px solid #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* cancel background image gradient */
+ .carousel-control.left-flat {
+    right: auto;
+    left: 15px;
+}
+/* override background image gradient */
+ .carousel-control.right-flat {
+    right: 15px;
+    left: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff;
+
+}
+
+.ui-loader {
+  display: none;
+}
+
+.ui-body-all {
+  display: none;
+}
+
+.ui-loader-default {
+  display: none;
 }
