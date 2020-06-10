@@ -5,10 +5,8 @@
     <meta content="utf-8" http-equiv="encoding">
     <title>ceciliabianchini</title>
     <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='https://netdna.bootstrapcdn.com/twitter-bootstrap/3.0.0/js/bootstrap.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js'></script>
   </head>
 
@@ -33,7 +31,7 @@
                 With a background is in Graphic Communication Design, recently merging with immersive technologies.<br><br>
                 My practice ranges from branding to web design with knowledge of html, css and js.<br><br>
                 Currently freelancing in London, while developing a 3D archive of endangered species of bees shot in photogrammetry.<br>
-                <div class="cv"><a href="pages/codedoodles.html">cv</a></div>
+                <div class="cv"><a href="../0120_Cecilia_Bianchini_CV.pdf" target="_blank">cv</a></div>
               </div>
             </div>
           </div>
@@ -125,6 +123,7 @@
                 </div>
             </div>
         </div>
+
           <div class="imgList">
             <img class="imgsLeftContent" src="../assets/imgs/codedoodles/co_5.png">
             <img class="imgsLeftContent" src="../assets/imgs/codedoodles/co_6.png">
@@ -240,7 +239,7 @@
         });
       });
 
-      /* SWIPE */
+      /* swipe */
       $(document).ready(function() {
          $("#myCarousel").swiperight(function() {
             $("#myCarousel").carousel('prev');
@@ -248,10 +247,6 @@
          $("#myCarousel").swipeleft(function() {
             $("#myCarousel").carousel('next');
          });
-      });
-
-      $(document).on('mobileinit', function() {
-        $.mobile.loader.prototype.options.disabled = true;
       });
 
     </script>
