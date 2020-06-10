@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <title>ceciliabianchini</title>
     <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js'></script>
   </head>
 
   <body>
@@ -62,10 +65,10 @@
     <div class="mainContainer">
       <div class="leftContainer">
         <div class="leftContent">
-          <div class="slider">
+          <!--<div class="slider">
             <div id="carousel-example-generic" class="carousel slide ">
 
-            <!-- Wrapper for slides -->
+            <!-- Wrapper for slides
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <img class="imgsLeftContent" src="../assets/imgs/jesters/jt_1.png">
@@ -92,15 +95,43 @@
               </div>
             </div>
 
-            <!-- Controls -->
+            <!-- Controls
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
               <span class="sr-only">«</span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
               <span class="sr-only">»</span>
             </a>
-
           </div>
+        </div>-->
+          <div class="slider">
+            <div class="col-sm-12">
+                <div class="bs-example">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_1.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_2.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_3.png"></div>
+                            <div class="item"><video class="imgsLeftContent" playsinline muted loop autoplay poster="../assets/imgs/jesters/jt_1.png"><source src="../assets/imgs/jesters/jt_1.mp4" type="video/mp4"></video></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_4.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_6.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/jesters/jt_5.png"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
           </div>
           <div class="imgList">
             <img class="imgsLeftContent" src="../assets/imgs/jesters/jt_1.png">
@@ -143,7 +174,7 @@
                 </div>
               </div>
             </div>
-            <div class="project-info-dx">
+            <div class="project-info-dx-immersive">
               <div class="projectCopy-immersive projectDescription">
                 A Jester’s Tale is the second XR movie directed by Asad J. Malik.
                 The piece runs on Magic Leap and stages the story of a mum telling
@@ -180,7 +211,7 @@
     </div>
 
     <script>
-    <!-- bootstrap -->
+    /* bootstrap */
       $(document).ready(function(){
         $(".btn-success").click(function(){
           $(".collapse").collapse('show');
@@ -190,6 +221,16 @@
           $(".collapse").collapse('hide');
             $(this).tab('hide');
         });
+      });
+
+      /* swipe */
+      $(document).ready(function() {
+         $("#myCarousel").swiperight(function() {
+            $("#myCarousel").carousel('prev');
+          });
+         $("#myCarousel").swipeleft(function() {
+            $("#myCarousel").carousel('next');
+         });
       });
 
     </script>

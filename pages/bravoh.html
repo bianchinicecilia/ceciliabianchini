@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <title>ceciliabianchini</title>
     <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js'></script>
   </head>
 
   <body>
@@ -62,10 +65,10 @@
     <div class="mainContainer">
       <div class="leftContainer">
         <div class="leftContent">
-          <div class="slider">
+          <!--<div class="slider">
             <div id="carousel-example-generic" class="carousel slide ">
 
-            <!-- Wrapper for slides -->
+            <!-- Wrapper for slides
             <div class="carousel-inner" role="listbox">
               <div class="item active">
               <video class="imgsLeftContent" controls muted autoplay>
@@ -83,7 +86,7 @@
               </div>
             </div>
 
-            <!-- Controls -->
+            <!-- Controls
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
               <span class="sr-only">«</span>
             </a>
@@ -92,7 +95,29 @@
             </a>
 
           </div>
-          </div>
+        </div>-->
+          <div class="slider">
+            <div class="col-sm-12">
+                <div class="bs-example">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item"><video class="imgsLeftContent videoMobile" playsinline muted loop autoplay poster="../assets/imgs/53100/53_4.png"><source src="../assets/imgs/bravoh/br_1.mp4" type="video/mp4"></video></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/bravoh/br_1.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/bravoh/br_2.png"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/bravoh/br_3.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
           <div class="imgList">
             <video class="imgsLeftContent" controls muted autoplay>
               <source src="../assets/imgs/bravoh/br_1.mp4" type="video/mp4">
@@ -129,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <div class="project-info-dx">
+            <div class="project-info-dx-immersive">
               <div class="projectCopy-immersive projectDescription">
                 This is a VR experience about Greek Tragedy and cyber bullying. In the piece,
                 I investigate the impact of viral videos in todays society through the story
@@ -168,7 +193,7 @@
     </div>
 
     <script>
-    <!-- bootstrap -->
+    /* bootstrap */
       $(document).ready(function(){
         $(".btn-success").click(function(){
           $(".collapse").collapse('show');
@@ -178,6 +203,16 @@
           $(".collapse").collapse('hide');
             $(this).tab('hide');
         });
+      });
+
+      /* swipe */
+      $(document).ready(function() {
+         $("#myCarousel").swiperight(function() {
+            $("#myCarousel").carousel('prev');
+          });
+         $("#myCarousel").swipeleft(function() {
+            $("#myCarousel").carousel('next');
+         });
       });
 
     </script>

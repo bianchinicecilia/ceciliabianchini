@@ -1117,7 +1117,7 @@ body {
   .homeButton {
     text-align: left;
     padding: 1.5em;
-    font-size: 1.2em;
+    font-size: 1.12em;
   }
 }
 
@@ -1357,6 +1357,24 @@ body {
   }
 }
 
+@media (min-width: 600px) {
+  .project-info-dx-immersive {
+    margin-top: -3em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-info-dx-immersive {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .project-info-dx-immersive {
+    margin-top: 2em;
+  }
+}
+
 .projectTitle {
   font-size: 1.1em;
   color: black;
@@ -1373,13 +1391,6 @@ body {
 @media (min-width: 1024px) {
   .projectTitle {
     font-size: 1.3em;
-  }
-}
-
-@media (min-width: 600px) {
-  .projectInfo {
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -1409,7 +1420,7 @@ body {
 
 @media (min-width: 1024px) {
   .projectSpecs {
-    grid-template-rows: 0.2em 0.8em 0.2em 0.8em 0.2em 0.8em 0.2em 0.8em 0.2em;
+    grid-template-rows: 0.2em 0.8em 0.2em 0.8em 0.2em 3.2em;
     margin-top: 1.5em;
   }
 }
@@ -1485,7 +1496,6 @@ body {
   font-family: SpaceGrotesk-Regular;
   line-height: 1.28em;
   color: black;
-  margin-top: -2.5em;
 }
 
 @media (max-width: 1024px) {
