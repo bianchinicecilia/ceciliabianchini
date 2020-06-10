@@ -122,7 +122,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 50;
 }
 
 @media (max-width: 1024px) {
@@ -1077,6 +1077,19 @@ body {
   font-family: SpaceGrotesk-Regular;
   margin-top: 1em;
 }
+
+@media (min-width: 600px) {
+  .body-content__rollig-text {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .body-content__rollig-text {
+    margin-top: 1em;
+  }
+}
+
 .body-content__rollig-text .rolling-text__text {
   font-size: 1em;
   color: white;
