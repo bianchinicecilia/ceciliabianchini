@@ -2019,7 +2019,11 @@ img {
   display: none;
 }
 
-.ui-body-all {
+.ui-corner-all {
+  display: none;
+}
+
+.ui-body-a {
   display: none;
 }
 
