@@ -7,6 +7,7 @@
     <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+    <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js'></script>-->
     <script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
     <link rel="icon" href="../assets/favicon.png" sizes="16x16" type="image/png">
   </head>
@@ -70,16 +71,16 @@
           <div class="slider">
             <div class="col-sm-12">
                 <div class="bs-example">
-                    <div id="test" class="carousel slide">
+                    <div id="myCarousel" class="carousel slide">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#test" data-slide-to="0" class="active"></li>
-                            <li data-target="#test" data-slide-to="1"></li>
-                            <li data-target="#test" data-slide-to="2"></li>
-                            <li data-target="#test" data-slide-to="3"></li>
-                            <li data-target="#test" data-slide-to="4"></li>
-                            <li data-target="#test" data-slide-to="5"></li>
-                            <li data-target="#test" data-slide-to="6"></li>
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
                         </ol>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
@@ -213,15 +214,16 @@
 
       /* swipe */
       $(function() {
-        $("#test").swipe( {
-          //Generic swipe handler for all directions
-          swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-            $(this).text("You swiped " + direction );
-          }
+
+        $('#myCarousel').swipe( {
+          swipeLeft:function() {
+            $("#myCarousel").carousel('next');
+          },
+          swipeRight:function() {
+            $("#myCarousel").carousel('prev');
+          },
         });
 
-        //Set some options later
-        $("#test").swipe( {fingers:2} );
       });
 
     </script>
