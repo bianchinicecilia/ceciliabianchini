@@ -1118,23 +1118,23 @@ body {
   letter-spacing: 0.05em;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 550px) {
   .homeButton {
     text-align: center;
     padding: 1em;
-    font-size: 3.2em;
+    font-size: 1.2em;
   }
 }
 
-@media (min-width: 1024px) {
+/*@media (max-width: 1024px) {
   .homeButton {
     text-align: left;
     padding: 1.5em;
     font-size: 1.12em;
   }
-}
+}*/
 
-@media (min-width: 1920px) {
+@media (min-width: 1000px) {
   .homeButton {
    font-size: 1.5em;
    padding: 1em;
