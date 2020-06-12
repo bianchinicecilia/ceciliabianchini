@@ -484,7 +484,7 @@ body {
   .HpContent {
     max-width: 100%;
     height: auto;
-    margin: 7% 3% 0 3%;
+    margin: 8% 3% 0 3%;
   }
 }
 
@@ -651,7 +651,7 @@ body {
 
 @media (min-width: 1024px) {
   .project {
-    font-size: 0.9em;
+    font-size: 0.809em;
     margin-top: 0;
   }
 }
@@ -1946,46 +1946,9 @@ img {
   content: "\203a";
 }
 
-/* SLIDER 2
-
-.carousel {
-    margin-top: 20px;
-}
-.carousel-control {
-    top: 50%;*/
-
-    /* border 3px, size 40px
-    border: 3px solid #fff;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
-
-    width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 25px;
-    color: #fff;
-    text-align: center;
-    opacity: .5;
-    filter: alpha(opacity=50);
-}
-
-/* cancel background image gradient */
- .carousel-control.left-flat {
-    right: auto;
-    left: 15px;
-}
-/* override background image gradient */
- .carousel-control.right-flat {
-    right: 15px;
-    left: auto;
-}
-
 .carousel-indicators {
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
   left: 50%;
   z-index: 5;
   width: 60%;
@@ -2013,20 +1976,4 @@ img {
   background-color: #FF0000;
   border: 0;
 
-}
-
-.ui-loader {
-  display: none;
-}
-
-.ui-corner-all {
-  display: none;
-}
-
-.ui-body-a {
-  display: none;
-}
-
-.ui-loader-default {
-  display: none;
 }
