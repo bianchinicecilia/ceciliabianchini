@@ -125,12 +125,33 @@ body {
   z-index: 50;
 }
 
-@media (max-width: 1024px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .header {
     display: flex;
     flex-direction: column;
     position: relative;
     height: auto;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 2.875em;
+    position: fixed;
   }
 }
 
@@ -153,21 +174,24 @@ body {
   color: white;
 }
 
-@media (min-width: 600px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .cb {
     font-size: 3.5em;
     text-align: center;
   }
 }
 
-@media (min-width: 1024px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .cb {
-    font-size: 1.2em;
-    text-align: left;
+    font-size: 1.8em;
+    text-align: center;
   }
 }
 
-@media (min-width: 1920px) {
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
   .cb {
     font-size: 1.5em;
     text-align: left;
@@ -1132,18 +1156,7 @@ body {
   .homeButton {
     text-align: center;
     padding: 2em;
-    font-size: 1.12em;
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  .homeButton {
-    color: black;
-    padding: 1em 1.5625em;
-    font-family: SpaceGrotesk-Regular;
-    font-size: 1.2em;
-    letter-spacing: 0.05em;
+    font-size: 1.8em;
   }
 }
 
@@ -1154,29 +1167,6 @@ body {
    padding: 1em;
   }
 }
-
-/*@media (min-width: 320px) {
-  .homeButton {
-    text-align: center;
-    padding: 1em;
-    font-size: 3.2em;
-  }
-}
-
-@media (min-width: 750px) {
-  .homeButton {
-    text-align: center;
-    padding: 2em;
-    font-size: 1.12em;
-  }
-}
-
-@media (min-width: 1920px) {
-  .homeButton {
-   font-size: 1.5em;
-   padding: 1em;
-  }
-}*/
 
 .homeButton a:link {
   color: black;
