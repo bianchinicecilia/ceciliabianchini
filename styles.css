@@ -126,7 +126,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .cb {
     font-size: 3.2em;
     text-align: center;
@@ -183,7 +183,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .cb {
     font-size: 1.8em;
     padding: 1.2em;
@@ -218,14 +218,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .headerItem {
     font-size: 3em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .headerItem {
     font-size: 1.8em;
     margin: 1em 1.2em;
@@ -269,7 +269,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footer {
     display: -webkit-box;
     display: -moz-box;
@@ -309,7 +309,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -350,7 +350,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerMenu {
     padding: 3em 0 3em 0;
     width: 100%;
@@ -358,7 +358,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .footerMenu {
     padding: 1.7em 0 1.5em 0;
     width: 100%;
@@ -382,7 +382,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerItem {
     font-size: 2.5em;
     margin: 0 0.8em;
@@ -390,7 +390,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .footerItem {
     font-size: 1.8em;
     margin: 0 1.2em
@@ -416,7 +416,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerHP {
     display: -webkit-box;
     display: -moz-box;
@@ -456,7 +456,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .footerHP {
     display: flex;
     flex-direction: column;
@@ -524,7 +524,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .worldometerHP {
     padding: 3em 0 3em 0;
     max-width: 100%;
@@ -537,7 +537,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .worldometerHP {
     padding: 1.5em 0 1.5em 0;
     max-width: 100%;
@@ -575,14 +575,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .body-content__rollig-text .rolling-text__text {
     font-size: 2.5em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .body-content__rollig-text .rolling-text__text {
     font-size: 1.8em;
   }
@@ -631,7 +631,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .navItem {
     margin: 0 1em;
     font-size: 2.5em;
@@ -640,7 +640,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .navItem {
     margin: 0 1.5em;
     font-size: 1.8em;
@@ -686,7 +686,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .homepage {
     position: relative;
     z-index:10;
@@ -694,7 +694,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .homepage {
     position: relative;
     z-index:10;
@@ -726,7 +726,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .HpContent {
     max-width: 100%;
     height: auto;
@@ -735,7 +735,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .HpContent {
     max-width: 100%;
     height: auto;
@@ -761,7 +761,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .branding {
     display: flex;
     flex-direction: column;
@@ -769,7 +769,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .branding {
     display: flex;
     flex-direction: column;
@@ -800,7 +800,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .immersive {
     display: flex;
     flex-direction: column;
@@ -808,7 +808,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .immersive {
     display: flex;
     flex-direction: column;
@@ -839,7 +839,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .field {
     font-size: 6.5em;
     margin: 0.8em 0 0.15em 0;
@@ -848,7 +848,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .field {
     font-size: 3.5em;
     margin: 0.8em 0 0.3em 0;
@@ -872,14 +872,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .category {
     display: none;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .category {
     display: none;
   }
@@ -897,7 +897,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .categoryMob {
     display: block;
     color: white;
@@ -907,7 +907,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .categoryMob {
     display: block;
     color: white;
@@ -928,7 +928,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .categoryMob-project {
     display: block;
     margin-top: 1.2em;
@@ -936,7 +936,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .categoryMob-project {
     display: block;
     margin-top: 1.2em;
@@ -955,7 +955,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectMob {
     display: block;
     max-width: 100%;
@@ -964,7 +964,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectMob {
     display: block;
     max-width: 100%;
@@ -996,14 +996,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .palette {
     margin-bottom: 1em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .palette {
     margin-bottom: 1em;
   }
@@ -1027,7 +1027,7 @@ body {
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .project {
     font-size: 2em;
     margin-top: 0.25em;
@@ -1035,7 +1035,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .project {
     font-size: 1.3em;
     margin-top: 0em;
@@ -1093,7 +1093,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .didaWall {
     font-size: 1.15em;
     margin-top: 0.5em;
@@ -1102,7 +1102,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .didaWall {
     font-size: 0.8em;
     margin-top: 0.5em;
@@ -1134,7 +1134,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .copyBootstrap {
     font-size: 2.2em;
     margin: 1.5em;
@@ -1142,7 +1142,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .copyBootstrap {
     font-size: 1.8em;
     margin: 1.5em;
@@ -1168,7 +1168,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .close {
     font-size: 4.5em;
     margin-right: 0.08em;
@@ -1177,7 +1177,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .close {
     font-size: 3em;
     margin-right: 0.08em;
@@ -1258,7 +1258,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .homeButton {
     text-align: center;
     padding: 1em;
@@ -1267,7 +1267,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .homeButton {
     text-align: center;
     padding: 1.2em;
@@ -1315,7 +1315,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
@@ -1327,7 +1327,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
@@ -1382,7 +1382,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .leftContent {
     max-width: 100%;
     height: auto;
@@ -1391,7 +1391,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .leftContent {
     max-width: 100%;
     height: auto;
@@ -1462,14 +1462,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectContainer {
     padding: 6.5em 6em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectContainer {
     padding: 4.5em 4em;
   }
@@ -1493,7 +1493,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectInfo {
     display: flex;
     flex-direction: column;
@@ -1507,7 +1507,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectInfo {
     display: flex;
     flex-direction: column;
@@ -1544,14 +1544,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectTitle {
     font-size: 3em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectTitle {
     font-size: 2em;
   }
@@ -1576,7 +1576,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectSpecs {
     grid-template-rows: 2em 2em 2em 2em 2em 2em 2em 2em 2em;
     margin-top: 3em;
@@ -1584,7 +1584,7 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectSpecs {
     grid-template-rows: 1.2em 2em 1.2em 2em 1.2em 2em 1.2em 2em 1.2em;
     margin-top: 3em;
@@ -1607,14 +1607,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectCategory {
     font-size: 2em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectCategory {
     font-size: 1.5em;
   }
@@ -1634,14 +1634,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectDescription {
-    font-size: 2em;
+    font-size: 1em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .projectDescription {
     font-size: 1.5em;
   }
@@ -1686,14 +1686,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .container {
     width: 100%;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .container {
     width: 100%;
   }
@@ -1730,14 +1730,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .tab-content {
     padding: 2em 4em 0 3em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .tab-content {
     padding: 1em 3em 0 2em;
   }
@@ -1778,14 +1778,14 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .btn-warning {
     color: #FF0000;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .btn-warning {
     color: #FF0000;
   }
@@ -1877,14 +1877,14 @@ tbody.collapse.in {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .slider {
     display: block;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .slider {
     display: block;
   }
@@ -1902,14 +1902,14 @@ tbody.collapse.in {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .imgList {
     display: none;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   .imgList {
     display: none;
   }
