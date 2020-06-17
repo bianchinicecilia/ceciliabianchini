@@ -835,7 +835,7 @@ body {
   /*-webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: white;*/
   font-family: Verona;
-  margin: 2% auto 1.5% auto;
+  margin: 2.5% auto 1.5% auto;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -1711,6 +1711,7 @@ body {
   background-color: #F7F7FF;
   position: absolute;
   overflow: scroll;
+  padding: 1em 3em 0 2em;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
