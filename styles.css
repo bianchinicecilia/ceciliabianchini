@@ -903,7 +903,7 @@ body {
     display: block;
     color: white;
     font-size: 1em;
-    margin-top: 0.25em;
+    margin-top: 0.8em;
   }
 }
 
@@ -913,7 +913,8 @@ body {
     display: block;
     color: white;
     font-size: 1.3em;
-    margin-top: 0.25em;
+    margin-top: 0.8em;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -933,6 +934,7 @@ body {
   .categoryMob-project {
     display: block;
     margin-top: 1.2em;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -941,6 +943,7 @@ body {
   .categoryMob-project {
     display: block;
     margin-top: 1.2em;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -1544,6 +1547,7 @@ body {
 @media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectTitle {
     font-size: 1.2em;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -1551,6 +1555,7 @@ body {
 @media only screen and (min-width : 480px) and (max-width : 1024px) {
   .projectTitle {
     font-size: 2em;
+    letter-spacing: 0.06em;
   }
 }
 
@@ -1607,6 +1612,7 @@ body {
 @media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectCategory {
     font-size: 1em;
+    letter-spacing: 0.06em;
   }
 }
 
@@ -1614,6 +1620,7 @@ body {
 @media only screen and (min-width : 480px) and (max-width : 1024px) {
   .projectCategory {
     font-size: 1.5em;
+    letter-spacing: 0.06em;
   }
 }
 
@@ -1634,6 +1641,7 @@ body {
 @media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectDescription {
     font-size: 1em;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -1641,6 +1649,7 @@ body {
 @media only screen and (min-width : 480px) and (max-width : 1024px) {
   .projectDescription {
     font-size: 1.5em;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -1663,6 +1672,27 @@ body {
   line-height: 1.28em;
   color: black;
   margin-top: 2.5em;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 240px) and (max-width : 480px) {
+  .projectCopy-immersive {
+    margin-top: 1em;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 1024px) {
+  .projectCopy-immersive {
+    margin-top: 1.5em;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .projectCopy-immersive {
+    margin-top: 2.5em;
+  }
 }
 
 .SingleProjectPalette {
@@ -2119,7 +2149,7 @@ img {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #FFF;
+  border: 1px solid #FFF;
   border-radius: 8px;
 }
 .carousel-indicators .active {
