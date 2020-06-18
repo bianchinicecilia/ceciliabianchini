@@ -1496,10 +1496,10 @@ body {
     flex-direction: column;
   }
   .project-info-dx {
-    margin-top: 2em;
+    margin-top: 0;
   }
   .project-info-dx-immersive {
-    margin-top: 1em;
+    margin-top: 0;
   }
 }
 
