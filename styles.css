@@ -1575,7 +1575,7 @@ body {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectSpecs {
-    grid-template-rows: 0.5em 1em 0.5em 1em 0.5em 1em;
+    grid-template-rows: 0.5em 1em 0.5em 1em 0.5em 1em 0.5em;
     margin-top: 1.5em;
   }
 }
