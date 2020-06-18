@@ -126,7 +126,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .cb {
     font-size: 1.5em;
     text-align: center;
@@ -219,7 +219,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .headerItem {
     font-size: 1.5em;
   }
@@ -270,7 +270,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footer {
     display: -webkit-box;
     display: -moz-box;
@@ -351,7 +351,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerMenu {
     padding: 1.3em 0 1.3em 0;
     width: 100%;
@@ -383,7 +383,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerItem {
     font-size: 1.15em;
     margin: 0 0.8em;
@@ -417,7 +417,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .footerHP {
     display: -webkit-box;
     display: -moz-box;
@@ -525,7 +525,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .worldometerHP {
     padding: 3em 0 3em 0;
     max-width: 100%;
@@ -576,7 +576,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .body-content__rollig-text .rolling-text__text {
     font-size: 2.5em;
   }
@@ -632,7 +632,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .navItem {
     margin: 0 1em;
     font-size: 1.5em;
@@ -687,7 +687,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .homepage {
     position: relative;
     z-index:10;
@@ -727,7 +727,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .HpContent {
     max-width: 100%;
     height: auto;
@@ -762,7 +762,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .branding {
     display: flex;
     flex-direction: column;
@@ -801,7 +801,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .immersive {
     display: flex;
     flex-direction: column;
@@ -840,7 +840,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .field {
     font-size: 6.5em;
     margin: 0.8em 0 0.15em 0;
@@ -873,7 +873,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .category {
     display: none;
   }
@@ -898,7 +898,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .categoryMob {
     display: block;
     color: white;
@@ -929,7 +929,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .categoryMob-project {
     display: block;
     margin-top: 1.2em;
@@ -956,7 +956,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectMob {
     display: block;
     max-width: 100%;
@@ -997,7 +997,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .palette {
     margin-bottom: 1em;
   }
@@ -1028,7 +1028,7 @@ body {
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .project {
     font-size: 2em;
     margin-top: 0.25em;
@@ -1094,7 +1094,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .didaWall {
     font-size: 1.15em;
     margin-top: 0.5em;
@@ -1135,7 +1135,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .copyBootstrap {
     font-size: 2.2em;
     margin: 1.5em;
@@ -1169,7 +1169,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .close {
     font-size: 4.5em;
     margin-right: 0.08em;
@@ -1259,7 +1259,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .homeButton {
     text-align: center;
     padding: 1em;
@@ -1316,7 +1316,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
@@ -1383,7 +1383,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .leftContent {
     max-width: 100%;
     height: auto;
@@ -1463,7 +1463,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectContainer {
     padding: 3em 2.5em;
   }
@@ -1494,7 +1494,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectInfo {
     display: flex;
     flex-direction: column;
@@ -1545,7 +1545,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectTitle {
     font-size: 1.5em;
   }
@@ -1577,7 +1577,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectSpecs {
     grid-template-rows: 0.8em 1.2em 0.8em 1.2em 0.8em 1.2em 0.8em 1.2em;
     margin-top: 2em;
@@ -1608,7 +1608,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectCategory {
     font-size: 1.15em;
   }
@@ -1635,7 +1635,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .projectDescription {
     font-size: 1em;
   }
@@ -1687,7 +1687,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .container {
     width: 100%;
   }
@@ -1731,7 +1731,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .tab-content {
     padding: 2em 4em 0 3em;
   }
@@ -1779,7 +1779,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .btn-warning {
     color: #FF0000;
   }
@@ -1878,7 +1878,7 @@ tbody.collapse.in {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .slider {
     display: block;
   }
@@ -1903,7 +1903,7 @@ tbody.collapse.in {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 240px) and (max-width : 480px) {
   .imgList {
     display: none;
   }
