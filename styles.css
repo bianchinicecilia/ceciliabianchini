@@ -1057,7 +1057,7 @@ body {
 }
 
 /* iPads v.3 (portrait and landscape) ----------- */
-@media only screen and (min-width : 1346px) and (max-width : 1440px) {
+@media only screen and (min-width : 1346px) and (max-width : 1430px) {
   .project {
     font-size: 0.718em;
   }
@@ -1659,22 +1659,34 @@ body {
 @media only screen and (min-width : 240px) and (max-width : 550px) {
   .projectDescription {
     font-size: 1em;
-    letter-spacing: 0.04em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 550px) and (max-width : 1024px) {
   .projectDescription {
-    font-size: 1.5em;
-    letter-spacing: 0.04em;
+    font-size: 1.3em;
+  }
+}
+
+/* iPads v.2 (portrait and landscape) ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1345px) {
+  .projectDescription {
+    font-size: 0.7em;
+  }
+}
+
+/* iPads v.3 (portrait and landscape) ----------- */
+@media only screen and (min-width : 1346px) and (max-width : 1430px) {
+  .projectDescription {
+    font-size: 0.75em;
   }
 }
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
   .projectDescription {
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
 }
 
@@ -1682,34 +1694,34 @@ body {
   font-family: SpaceGrotesk-Regular;
   line-height: 1.28em;
   color: black;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 .projectCopy-immersive {
   font-family: SpaceGrotesk-Regular;
   line-height: 1.28em;
   color: black;
-  margin-top: 2.5em;
+  margin-top: 1.5em;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 550px) {
   .projectCopy-immersive {
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 550px) and (max-width : 1024px) {
   .projectCopy-immersive {
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
 }
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
   .projectCopy-immersive {
-    margin-top: 2.5em;
+    margin-top: 2em;
   }
 }
 
