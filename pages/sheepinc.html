@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>ceciliabianchini</title>
+    <link href="../styles.css?ver=1.1" rel="stylesheet" type="text/css"/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
+    <link rel="icon" href="../assets/favicon.png" sizes="16x16" type="image/png">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="homeProject"><div class="homeButton"><a href="../index.html">cecilia:bianchini</a></div></div>
+      <div class="container">
+
+        <div class="headerMenu">
+          <button type="button" class="btn btn-success headerItem" id="aboutBtn" data-toggle="collapse" data-target="#about">about</button>
+          <button type="button" class="btn btn-success headerItem" id="wallBtn" data-toggle="collapse" data-target="#wall">wall</button>
+          <div class="headerItem" id="email"><a href="mailto:bianchini.cecilia@gmail.com" target="_top">email</a></div>
+        </div>
+
+        <div class="tab-content collapse">
+          <div id="about" class="tab-pane fade in active">
+            <div class="inContent">
+              <div><a href="#about"><button type="button" class="btn btn-warning close" data-toggle="collapse" data-target="#about">&times;</button></a></div>
+              <div class="copyBootstrap">
+                Graduated from Politecnico di Milano and Central Saint Martins.<br>
+                With a background is in Graphic Communication Design, recently merging with immersive technologies.<br><br>
+                My practice ranges from branding to web design with knowledge of html, css and js.<br><br>
+                Currently freelancing in London, while developing a 3D archive of endangered species of bees shot in photogrammetry.<br>
+                <div class="cv"><a href="../0120_Cecilia_Bianchini_CV.pdf" target="_blank">cv</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="wall" class="tab-pane fade">
+            <div class="inContent">
+              <div><a href="#about"><button type="button" class="btn btn-warning close" data-toggle="collapse" data-target="#about">&times;</button></a></div>
+              <div class="copyBootstrap">
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/Natart_01.jpg"><source src="../assets/imgs/wall/Natart_01.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Ecoline + Milk, digital postproduction </div>
+                <img class="content_wall" src="../assets/imgs/wall/FoolISH.jpg">
+                  <div class="didaWall"> Pencil drawing, digital post production </div>
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/garlic_1.jpg"><source src="../assets/imgs/wall/garlic_1.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Photogrammetry, video editing </div>
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/garlic_2.jpg"><source src="../assets/imgs/wall/garlic_2.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Photogrammetry, video editing </div>
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/Natart_03.jpg"><source src="../assets/imgs/wall/Natart_03.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Bacteria growth in a petri dish, time-lapse </div>
+                <img class="content_wall" src="../assets/imgs/wall/goldenmask.jpg">
+                  <div class="didaWall"> Cinema 4D </div>
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/Natart_02.jpg"><source src="../assets/imgs/wall/Natart_02.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Salt crystal growth, time-lapse </div>
+                <video class="content_wall" playsinline muted loop autoplay poster="../assets/imgs/wall/Natart_BW.jpg"><source src="../assets/imgs/wall/Natart_BW.mp4" type="video/mp4"></video>
+                  <div class="didaWall"> Ecoline + Milk, digital postproduction </div>
+                <img class="content_wall" src="../assets/imgs/wall/Mask1.jpg">
+                <img class="content_wall" src="../assets/imgs/wall/Mask2.jpg">
+                  <div class="didaWall"> Cinema 4D sculpting </div>
+                <img class="content_wall" src="../assets/imgs/wall/typo.jpg">
+                  <div class="didaWallLast"> Futura typeface </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mainContainer">
+      <div class="leftContainer">
+        <div class="leftContent">
+          <div class="slider">
+            <div class="col-sm-12">
+                <div class="bs-example">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_01.jpg"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_02.jpg"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_03.jpg"></div>
+                            <div class="item"><video class="imgsLeftContent videoMobile" playsinline muted loop autoplay poster="../assets/imgs/sheepinc/SH_04.jpg"><source src="../assets/imgs/sheepinc/SH_04.mp4" type="video/mp4"></video></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_05.jpg"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_06.jpg"></div>
+                            <div class="item"><img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_07.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="imgList">
+            <img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_01.jpg">
+            <img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_02.jpg">
+            <img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_03.jpg">
+            <video class="imgsLeftContent" playsinline muted loop autoplay poster="../assets/imgs/sheepinc/SH_04.jpg">
+              <source src="../assets/imgs/sheepinc/SH_04.mp4" type="video/mp4">
+            </video>
+            <img class="imgsLeftContent" src="../assets/imgs/sheepinc/SH_05.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="rightContainer">
+        <div class="projectContainer">
+          <div class="projectInfo">
+            <div class="project-info-sx">
+              <div class="projectTitle"> Sheep Inc. </div>
+              <div class="projectSpecs">
+                <div class="projectCategory">
+                  practice
+                </div>
+                <div class="projectDescription">
+                  Social Campaign, Content Creation<br>
+                </div>
+                <div class="projectCategory">
+                  client
+                </div>
+                <div class="projectDescription">
+                  <a href="https://www.instagram.com/erastudioberlin/" target="_blank">
+                  The Ready House x Sheep Inc.
+                  </a>
+                </div>
+                <div class="projectCategory">
+                  fonts
+                </div>
+                <div class="projectDescription">
+                  Circular
+                </div>
+              </div>
+            </div>
+            <div class="project-info-dx">
+              <div class="projectCopy-immersive projectDescription">
+                Sheep inc. is the first carbon-negative knitwear on earth. <br>
+                Their mission is to produce long lasting sustainable clothes, with a strong focus on quality and details. <br><br>
+
+                Below a series of artworks based on The EUTOPIA MANIFESTO, created
+                for Instagram ads and for Sheep Inc. new website launching next year.<br><br>
+
+                The EUTOPIA MANIFESTO - is a speculation on the planet we will inhabit one day,
+                an escape from the direction the humanity is heading.
+                That day there will be peace, and we will be in balance with nature. <br><br>
+
+                In this mist of panic and grief, thinking about the future may be hard,
+                but dreaming about it, can save us. Landing into Sheep Inc. new world,
+                people will experience and discover all the wonders of its land, <br>
+                mankind helped achieving by changing its behavior at the right time.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerMenu">
+          <div class="footerItem">©2020</div>
+          <div class="footerItem" id="ig"><a href="#news"><a href="https://www.instagram.com/cc_peas/" target="_blank">instagram</a></a></div>
+          <div class="footerItem" id="arena"><a href="#contact"><a href="https://www.are.na/cecilia-bianchini" target="_blank">are.na</a></a></div>
+          <div class="footerItem" id="vimeo"><a href="#contact"><a href="https://vimeo.com/user23761233" target="_blank">vimeo</a></a></div>
+      </div>
+      <div class="worldometer">
+        <div class="projectNav">
+          <div class="navItem">
+            <img class="arrows" src="../assets/arrow-left-white.svg"><div class="previousProject"><a href="../pages/53100.html">53100</a></div>
+          </div>
+          <div class="navItem">
+            <div class="nextProject"><a href="../pages/lolak.html">Lola K</a></div><img class="arrows" src="../assets/arrow-right-white.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    /* bootstrap */
+      $(document).ready(function(){
+        $(".btn-success").click(function(){
+          $(".collapse").collapse('show');
+            $(this).tab('show');
+        });
+        $(".btn-warning").click(function(){
+          $(".collapse").collapse('hide');
+            $(this).tab('hide');
+        });
+      });
+
+      /* swipe */
+      $(function() {
+
+        $('#myCarousel').swipe( {
+          swipeLeft:function() {
+            $("#myCarousel").carousel('next');
+          },
+          swipeRight:function() {
+            $("#myCarousel").carousel('prev');
+          },
+        });
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
